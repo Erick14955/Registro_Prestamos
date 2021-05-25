@@ -14,37 +14,37 @@ namespace Registro_Prestamos.BLL.Tests
         [TestMethod()]
         public void GuardarTest()
         {
-            Assert.Fail();
+
         }
 
         [TestMethod()]
         public void ExisteTest()
         {
-            Assert.Fail();
+
         }
 
         [TestMethod()]
         public void EliminarTest()
         {
-            Assert.Fail();
+
         }
 
         [TestMethod()]
         public void BuscarTest()
         {
-            Assert.Fail();
+
         }
 
         [TestMethod()]
         public void GetPersonaTest()
         {
-            Assert.Fail();
+
         }
 
         [TestMethod()]
         public void GetListTest()
         {
-            Assert.Fail();
+
         }
     }
 }
