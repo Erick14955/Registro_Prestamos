@@ -27,5 +27,6 @@ namespace Registro_Prestamos.MODEL
 
         [Required(ErrorMessage = "Este campo no puede quedar vacio, introduzca el balance del prestamo")]
         public float Balance { get; set; }
+        public List<MorasDetalle> Detalle { get; set; }
     }
 }

@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Registro_Prestamos.Data;
 using Blazored.Toast;
 using System;
 using System.Collections.Generic;
@@ -29,7 +28,6 @@ namespace Registro_Prestamos
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
             services.AddBlazoredToast();
         }
 

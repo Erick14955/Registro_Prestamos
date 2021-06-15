@@ -144,7 +144,7 @@
     public void Guardar()
     {
         bool guardo;
-
+        prestamos.Balance += prestamos.Monto;
         guardo = PrestamoBLL.Guardar(prestamos);
 
         if (guardo)
